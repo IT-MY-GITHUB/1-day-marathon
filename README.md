@@ -4,13 +4,13 @@
 <hr/>
 
   #### Simple Gallery Cards exaple. HTML, CSS, JS
-  https://it-my-github.github.io/5-day-marathon/gallery-of-cards/
+  https://it-my-github.github.io/1-day-marathon/gallery-of-cards/
   
   #### Simple Drag and drop exaple. HTML, CSS, JS
-  https://it-my-github.github.io/5-day-marathon/drag-and-drop/
+  https://it-my-github.github.io/1-day-marathon/drag-and-drop/
   
   #### Nice Slider exaple. HTML, CSS, JS
-  https://it-my-github.github.io/5-day-marathon/nice-slider/
+  https://it-my-github.github.io/1-day-marathon/nice-slider/
   
    #### Board Colors. HTML, CSS, JS
-  https://it-my-github.github.io/5-day-marathon/board-colors/
+  https://it-my-github.github.io/1-day-marathon/board-colors/
