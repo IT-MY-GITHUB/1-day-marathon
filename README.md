@@ -1,5 +1,5 @@
-# 5-day-marathon
-## 5-day marathon. Examples of tasks with HTML, CSS, JS. Gallery of cards, Slider, miniGame, etc.
+# 5-day-marathon with HTML, CSS, JS
+## Examples of tasks: Gallery of cards, Slider, Drag & Drop, miniGame, etc.
 ###  In the gh-pages branch there are ready-made project files.
 <hr/>
 
