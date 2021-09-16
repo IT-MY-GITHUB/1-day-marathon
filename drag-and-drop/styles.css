@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5e5e5;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 0.6rem 0.8rem;
+  color: #fff;
+  text-align: center;
+}
+
+.item {
+  width: 100%;
+  height: 66px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 6px;
+  background: #f7f6f7;
+  padding: 1rem;
+  color: #222;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  background: rgb(131,58,180);
+  background: linear-gradient(229deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.progress {
+  background: rgb(247,240,240);
+  background: linear-gradient(229deg, rgba(247,240,240,1) 7%, rgba(67,215,61,1) 51%);
+}
+
+.done {
+  background: rgb(93,146,183);
+  background: linear-gradient(229deg, rgba(93,146,183,1) 20%, rgba(64,64,64,1) 100%);
+}
+
+@keyframes op { 
+  0% { 
+    opacity: 1;
+  } 
+  50% { 
+    opacity: 0.5; 
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.it-start {
+  border: 2px solid rgba(253,29,29,0.5);
+}
+
+.it-during {
+  border: 2px solid rgba(67,215,61,0.5);
+}
+
+.it-done {
+  border: 2px solid rgba(93,146,183,0.5);
+}
+
+.hold {
+  border: dashed rebeccapurple;
+  color: #828282;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 2px solid rebeccapurple;
+  animation: 1s linear 0s infinite op;
+}

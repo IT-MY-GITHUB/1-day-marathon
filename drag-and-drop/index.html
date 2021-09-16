@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Drag & Drop | Project 2</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="row">
+          <div class="col-header start">Start</div>
+          <div class="col-header progress">During</div>
+          <div class="col-header done">Done</div>
+      </div>
+
+      <div class="row">
+        <div class="placeholder ph-start">
+          <div class="item" draggable="true">Drag me</div>
+        </div>
+        <div class="placeholder ph-during"></div>
+        <div class="placeholder ph-done"></div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
