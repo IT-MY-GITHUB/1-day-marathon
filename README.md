@@ -12,5 +12,8 @@
   #### Nice Slider exaple. HTML, CSS, JS
   https://it-my-github.github.io/1-day-marathon/nice-slider/
   
-   #### Board Colors. HTML, CSS, JS
+  #### Board Colors. HTML, CSS, JS
   https://it-my-github.github.io/1-day-marathon/board-colors/
+  
+  #### Aim Game. HTML, CSS, JS
+  https://it-my-github.github.io/1-day-marathon/aim-game/
