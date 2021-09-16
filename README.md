@@ -5,3 +5,6 @@
 
   #### Simple Gallery Cards exaple. HTML, CSS, JS
   https://it-my-github.github.io/5-day-marathon/gallery-of-cards/
+  
+  #### Simple Drag and drop exaple. HTML, CSS, JS
+  https://it-my-github.github.io/5-day-marathon/drag-and-drop/
